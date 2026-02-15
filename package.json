@@ -1,0 +1,13 @@
+{
+  "name": "playwright-qa-epex-market-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:epex": "playwright test tests/epex-spot-market-results.spec.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^20.0.0"
+  }
+}
